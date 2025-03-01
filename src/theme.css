@@ -18,8 +18,9 @@
   background-color: var(--dimmer-text);
 }
 
-.mdl-slider::-webkit-slider-thumb,
-.mdl-slider::-moz-range-thumb,
+.mdl-slider::-webkit-slider-thumb {background-color: var(--main-color);}
+.mdl-slider::-moz-range-thumb {background-color: var(--main-color);}
+
 .mdl-slider-background-lower {
   background-color: var(--main-color);
 }
@@ -183,6 +184,7 @@ html {
 .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused,
+.button-link,
 .button-flat:focus,
 .button-flat:hover,
 .itemAction:focus,
@@ -244,6 +246,8 @@ html {
 }
 
 .buttonActive,
+.button-accent-flat,
+.metadataSidebarIcon,
 .layout-tv .paper-icon-button-light.show-focus:focus {
   color: var(--main-color) !important;
 }
@@ -267,6 +271,7 @@ html {
 .selectLabel,
 .sidebarHeader,
 .listItem,
+.listItemBodyText,
 .MuiMenuItem-root,
 .dashboardGeneralForm,
 .dashboardSections,
@@ -282,10 +287,6 @@ legend {
   color: var(--dimmer-text) !important;
 }
 
-.listItemBodyText {
-  color: var(--main-text);
-}
-
 .listItem-border {
   border-color: var(--hover-background) !important;
 }
@@ -294,4 +295,16 @@ legend {
 .sessionAppName,
 .sessionNowPlayingInfo {
   color: var(--main-background);
+}
+
+/* this has to be background, not background-color for some reason */
+div[role=presentation].jstree-wholerow-clicked {
+  background: var(--hover-background) !important;
+}
+
+.jstree-hovered,
+.jstree-clicked,
+.jstree-wholerow-hovered {
+  color: var(--main-text) !important;
+  background-color: var(--hover-background) !important;
 }
