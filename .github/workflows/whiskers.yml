@@ -1,0 +1,18 @@
+name: Whiskers Check
+
+on:
+  push:
+    paths: ['template.tera', 'src', '.github/workflows/whiskers.yml']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: catppuccin/setup-whiskers@v1.0.0
+        with:
+          whiskers-version: '2.5.1'
+      - run: whiskers template.tera --check

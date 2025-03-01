@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/isabelroses/jellyfin/stargazers"><img src="https://img.shields.io/github/stars/isabelroses/jellyfin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/isabelroses/jellyfin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/isabelroses/jellyfin/contributors"><img src="https://img.shields.io/github/contributors/isabelroses/jellyfin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/adamperkowski/jellyfin/stargazers"><img src="https://img.shields.io/github/stars/adamperkowski/jellyfin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/adamperkowski/jellyfin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/adamperkowski/jellyfin/contributors"><img src="https://img.shields.io/github/contributors/adamperkowski/jellyfin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -36,17 +36,43 @@
 
 ## Usage
 
-1. Copy your theme from:
-  - [🌻 Catppuccin Latte](/src/latte.css?raw=1)
-  - [🪴 Catppuccin Frappe](/src/frappe.css?raw=1)
-  - [🌺 Catppuccin Macchiato](/src/macchiato.css?raw=1)
-  - [🌿 Catppuccin Mocha](/src/mocha.css?raw=1)
-2. Open settings navigate to Display and from there paste the css into the section called "Custom CSS code:"
-3. Then press save and you're done!
+1. Copy the theme import rule:
+    ```css
+    @import url('https://adamperkowski.github.io/jellyfin/theme.css');
+    ```
+2. Open settings, navigate to Display and paste the CSS into the section called "Custom CSS code"
+3. Copy your preferred flavor's import rule and paste it **after** the theme import:
+  - 🌻 Latte
+    ```css
+    @import url('https://adamperkowski.github.io/jellyfin/latte.css');
+    ```
+  - 🪴 Frappé
+    ```css
+    @import url('https://adamperkowski.github.io/jellyfin/frappe.css');
+    ```
+  - 🌺 Macchiato
+    ```css
+    @import url('https://adamperkowski.github.io/jellyfin/macchiato.css');
+    ```
+  - 🌿 Mocha
+    ```css
+    @import url('https://adamperkowski.github.io/jellyfin/mocha.css');
+    ```
+4. Press save and you're done!
+
+## Customization
+
+The accent color can be overrided by adding the following **after** the imports:
+```css
+:root {
+  --main-color: var(--mauve);
+}
+```
 
 ## 💝 Thanks to
 
 - [Isabel](https://github.com/isabelroses)
+- [Adam](https://github.com/adamperkowski)
 
 &nbsp;
 
