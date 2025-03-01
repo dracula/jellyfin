@@ -19,12 +19,18 @@
 }
 
 .mdl-slider::-webkit-slider-thumb,
+.mdl-slider::-moz-range-thumb,
 .mdl-slider-background-lower {
   background-color: var(--main-color);
 }
 
 .mdl-slider-background-flex {
   background-color: var(--hover-background);
+}
+
+.formDialogHeader:not(.formDialogHeader-clear),
+.formDialogFooter:not(.formDialogFooter-clear) {
+  background-color: var(--second-background);
 }
 
 .backgroundContainer,
@@ -66,6 +72,7 @@ html {
   color: var(--main-text);
 }
 
+.playstatebutton-icon-played,
 .ratingbutton-icon-withrating {
   color: var(--red-color);
 }
@@ -90,7 +97,6 @@ html {
   border-color: var(--main-color);
 }
 
-
 .toast,
 .fab,
 .raised {
@@ -114,6 +120,19 @@ html {
 .navMenuOption:focus {
   color: var(--main-color);
   background-color: var(--hover-background);
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  color: var(--main-text);
+  background-color: var(--second-background) !important;
+}
+
+.notifications {
+  color: var(--blue) !important;
+}
+
+.notification_important {
+  color: var(--red-color) !important;
 }
 
 .button-submit,
@@ -165,6 +184,7 @@ html {
 .selectLabelFocused,
 .textareaLabelFocused,
 .button-flat:focus,
+.button-flat:hover,
 .itemAction:focus,
 .emby-tab-button-active>.emby-button-foreground,
 .emby-button-foreground:focus,
@@ -172,6 +192,10 @@ html {
 .headerRight,
 .headerLeft {
   color: var(--main-color);
+}
+
+.mdl-slider::-moz-range-thumb {
+  background-color: var(--main-color);
 }
 
 .MuiButtonBase-root,
@@ -219,6 +243,7 @@ html {
   color: var(--dimmer-text);
 }
 
+.buttonActive,
 .layout-tv .paper-icon-button-light.show-focus:focus {
   color: var(--main-color) !important;
 }
@@ -265,6 +290,7 @@ legend {
   border-color: var(--hover-background) !important;
 }
 
+.checkboxOutline .checkboxIcon-checked,
 .sessionAppName,
 .sessionNowPlayingInfo {
   color: var(--main-background);
