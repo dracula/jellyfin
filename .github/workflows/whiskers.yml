@@ -2,7 +2,7 @@ name: Whiskers Check
 
 on:
   push:
-    paths: ['template.tera', 'src', '.github/workflows/whiskers.yml']
+    paths: ['jellyfin.tera', 'themes', '.github/workflows/whiskers.yml']
   pull_request:
   workflow_dispatch:
 
@@ -15,4 +15,4 @@ jobs:
       - uses: catppuccin/setup-whiskers@v1.0.0
         with:
           whiskers-version: '2.5.1'
-      - run: whiskers template.tera --check
+      - run: whiskers jellyfin.tera --check

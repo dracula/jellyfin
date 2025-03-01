@@ -29,7 +29,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir -p build
-          cp src/*.css build
+          cp themes/*.css build
           cd build
           sed -i 's/\[URL\]/https:\/\/adamperkowski.github.io\/jellyfin/g' *.css
       - name: Upload artifact
