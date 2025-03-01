@@ -14,10 +14,6 @@
   text-shadow: none;
 }
 
-.mdl-slider {
-  color: var(--main-color);
-}
-
 .mdl-slider-background-upper {
   background-color: var(--dimmer-text);
 }
@@ -98,10 +94,6 @@ html {
   color: var(--main-text);
 }
 
-.emby-button-foreground:focus {
-  color: var(--main-color);
-}
-
 .paper-icon-button-light {
   color: var(--main-text);
 }
@@ -114,10 +106,6 @@ html {
 .navMenuOption:focus {
   color: var(--main-color);
   background-color: var(--hover-background);
-}
-
-.emby-tab-button-active>.emby-button-foreground {
-  color: var(--main-color);
 }
 
 .button-submit,
@@ -165,6 +153,14 @@ html {
   background: var(--main-background);
 }
 
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused,
+.button-flat:focus,
+.itemAction:focus,
+.emby-tab-button-active>.emby-button-foreground,
+.emby-button-foreground:focus,
+.mdl-slider,
 .headerRight,
 .headerLeft {
   color: var(--main-color);
@@ -215,10 +211,6 @@ html {
   color: var(--dimmer-text);
 }
 
-.itemAction:focus {
-  color: var(--main-color);
-}
-
 /* General focus element color */
 
 .layout-tv .paper-icon-button-light.show-focus:focus {
@@ -227,10 +219,6 @@ html {
 
 .emby-button.show-focus:focus {
   background: var(--main-color) !important;
-}
-
-.button-flat:focus {
-  color: var(--main-color);
 }
 
 .sectionTitle,
