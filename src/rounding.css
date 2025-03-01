@@ -1,0 +1,22 @@
+.cardContent-button,
+.cardContent-shadow,
+.itemDetailImage,
+.cardOverlayButton-hover,
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.paperList,
+.listItem,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.emby-button,
+.cardBox,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog {
+  border-radius: 8px !important;
+}

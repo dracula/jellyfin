@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://jellyfin.org">jellyfin</a>
+	Catppuccin for <a href="https://jellyfin.org">Jellyfin</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -68,6 +68,21 @@ The accent color can be overrided by adding the following **after** the imports:
   --main-color: var(--mauve);
 }
 ```
+
+<details>
+<summary>Preview</summary>
+<img src="/assets/mauve.webp"/>
+</details>
+
+There is also an everything-rounded extension available:
+```css
+@import url('https://adamperkowski.github.io/jellyfin/rounding.css');
+```
+<details>
+<summary>Preview</summary>
+<img src="/assets/rounding0.webp"/>
+<img src="/assets/rounding1.webp"/>
+</details>
 
 ## 💝 Thanks to
 

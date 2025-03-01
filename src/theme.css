@@ -211,8 +211,6 @@ html {
   color: var(--dimmer-text);
 }
 
-/* General focus element color */
-
 .layout-tv .paper-icon-button-light.show-focus:focus {
   color: var(--main-color) !important;
 }
