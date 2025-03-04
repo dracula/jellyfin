@@ -80,8 +80,9 @@ There is also an everything-rounded extension available:
 
 ## 💝 Thanks to
 
-- [Isabel](https://github.com/isabelroses)
 - [Adam](https://github.com/adamperkowski)
+- [Isabel](https://github.com/isabelroses)
+- [mxgic1337](https://github.com/mxgic1337)
 
 &nbsp;
 
