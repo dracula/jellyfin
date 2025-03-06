@@ -186,7 +186,10 @@ html {
 .MuiSvgIcon-root,
 .listItemButton,
 .checkboxListLabel,
-.lnkMediaFolder {
+.lnkMediaFolder,
+.sessionAppName,
+.sessionNowPlayingInfo,
+.sessionNowPlayingTime {
   color: var(--main-text) !important;
 }
 
@@ -285,7 +288,7 @@ legend {
   background-color: var(--second-background);
 }
 
-.osdTextContainer, .osdTimeText, .cardContent div {
+.osdTextContainer, .osdTimeText {
   color: var(--main-text);
 }
 
@@ -305,9 +308,13 @@ div[role=presentation].jstree-wholerow-clicked {
   border-color: var(--main-color);
 }
 
-.infoBanner, .cardContent {
+.infoBanner {
   color: var(--main-text);
   background: var(--second-background);
+}
+
+.cardContent.defaultCardBackground {
+  background-color: var(--second-background);
 }
 
 .itemProgressBar.playbackProgress .itemProgressBarForeground {
