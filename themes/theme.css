@@ -46,6 +46,7 @@ html {
   background-color: var(--main-background);
 }
 
+.logoScreenSaver,
 .detailPageSecondaryContainer {
   background-color: var(--second-background) !important;
 }
@@ -284,10 +285,6 @@ legend {
   color: var(--main-background);
 }
 
-.iconOsd {
-  background-color: var(--second-background);
-}
-
 .osdTextContainer, .osdTimeText {
   color: var(--main-text);
 }
@@ -313,6 +310,7 @@ div[role=presentation].jstree-wholerow-clicked {
   background: var(--second-background);
 }
 
+.iconOsd,
 .cardContent.defaultCardBackground {
   background-color: var(--second-background);
 }
