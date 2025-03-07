@@ -5,13 +5,11 @@
 ::-moz-selection {
   background: var(--main-color);
   color: var(--main-background);
-  text-shadow: none;
 }
 
 ::selection {
   background: var(--main-color);
   color: var(--main-background);
-  text-shadow: none;
 }
 
 .mdl-slider-background-upper {
@@ -323,8 +321,4 @@ div[role=presentation].jstree-wholerow-clicked {
 
 .itemProgressBar.backgroundProgress .itemProgressBarForeground {
   background-color: var(--hover-background) !important;
-}
-
-.nowPlayingInfoControls {
-  padding-left: 10px;
 }

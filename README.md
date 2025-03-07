@@ -44,13 +44,13 @@
 3. Copy your preferred flavor's import rule and paste it **after** the theme import:
     ```css
     /* 🌻 Latte */
-    @import url('https://adamperkowski.github.io/jellyfin/latte.css');
+    @import url('https://adamperkowski.github.io/jellyfin/catppuccin-latte.css');
     /* 🪴 Frappé */
-    @import url('https://adamperkowski.github.io/jellyfin/frappe.css');
+    @import url('https://adamperkowski.github.io/jellyfin/catppuccin-frappe.css');
     /* 🌺 Macchiato */
-    @import url('https://adamperkowski.github.io/jellyfin/macchiato.css');
+    @import url('https://adamperkowski.github.io/jellyfin/catppuccin-macchiato.css');
     /* 🌿 Mocha */
-    @import url('https://adamperkowski.github.io/jellyfin/mocha.css');
+    @import url('https://adamperkowski.github.io/jellyfin/catppuccin-mocha.css');
     ```
 4. Press save and you're done!
 
@@ -59,24 +59,9 @@
 The accent color can be overrided by adding the following **after** the imports:
 ```css
 :root {
-    --main-color: var(--mauve);
+    --main-color: var(--sapphire);
 }
 ```
-
-<details>
-    <summary>Preview</summary>
-    <img src="/assets/mauve.webp"/>
-</details>
-
-There is also an everything-rounded extension available:
-```css
-@import url('https://adamperkowski.github.io/jellyfin/rounding.css');
-```
-<details>
-    <summary>Preview</summary>
-    <img src="/assets/rounding0.webp"/>
-    <img src="/assets/rounding1.webp"/>
-</details>
 
 ## 💝 Thanks to
 
