@@ -96,8 +96,8 @@ html {
 .toast,
 .fab,
 .raised {
-  color: var(--main-text);
-  background-color: var(--second-background);
+  color: var(--main-text) !important;
+  background-color: var(--second-background) !important;
 }
 
 .paper-icon-button-light:hover:not(:disabled),
