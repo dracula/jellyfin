@@ -25,6 +25,7 @@ whiskers:
   --main-background: #{{base.hex}};
   --second-background: #{{mantle.hex}};
   --hover-background: #{{surface0.hex}};
+  --main-background-transparent: #{{base.hex}}dd;
   --main-text: #{{text.hex}};
   --dimmer-text: #{{overlay2.hex}};
   --green-color: var(--green);
