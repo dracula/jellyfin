@@ -34,7 +34,7 @@ The Dracula Theme for Jellyfin was created on the basis of the famous [**catpucc
 1. Open settings, navigate to Display and paste the CSS into the section called "Custom CSS code"
 2. Copy your preferred flavor's import rule and paste it **after** the theme import:
     ```css
-    @import url('https://cdn.jsdelivr.net/gh/Domoel/jellyfin-dracula-theme/theme.css');
+    @import url('https://jellyfin.catppuccin.com/theme.css');
     @import url('https://cdn.jsdelivr.net/gh/Domoel/jellyfin-dracula-theme/themes/dracula.css');
     ```
 4. Press save and you're done!
