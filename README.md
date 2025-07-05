@@ -21,7 +21,11 @@
 
 The Dracula Theme for Jellyfin was created on the basis of the famous [**catpuccin theme for Jellyfin**](https://github.com/catppuccin/jellyfin). All credits go to the catpuccin team and the dracula team.
 
+<p align="center">
+    
+![Jellyfin Dracula Theme](https://github.com/user-attachments/assets/b8e92c55-9d48-414f-8336-129ed7a5d33b)
 
+</p>
 
 #### Useful links
 
