@@ -20,8 +20,7 @@ Download using the [GitHub `.zip` download](https://github.com/dracula/jellyfin/
 2. Copy the following import rules and paste them into this section (`custom CSS code`)
 
    ```css
-   @import url("https://jellyfin.catppuccin.com/theme.css");
-   @import url("https://cdn.jsdelivr.net/gh/Domoel/jellyfin-dracula-theme/themes/dracula.css");
+   @import url("https://cdn.jsdelivr.net/gh/dracula/jellyfin/dracula-theme.css");
    ```
 
-3. Press save and you're done!
+3. Press `save` and you're done! 💜
