@@ -1,6 +1,7 @@
 # Dracula for [Jellyfin](https://jellyfin.org)
 
 > A dark theme for [Jellyfin](https://jellyfin.org).
+>
 > The Dracula Theme for Jellyfin is a fork of the awesome [Catppuccin theme](https://github.com/catppuccin/jellyfin) - many thanks to [these awesome contributors.](https://github.com/catppuccin/jellyfin/graphs/contributors)
 
 ![Screenshot](./screenshot.png)
