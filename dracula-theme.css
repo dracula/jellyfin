@@ -1,3 +1,30 @@
+:root {
+  --rosewater: #f4dbd6;
+  --flamingo: #f0c6c6;
+  --pink: #f5bde6;
+  --mauve: #c6a0f6;
+  --red: #ed8796;
+  --maroon: #ee99a0;
+  --peach: #f5a97f;
+  --yellow: #eed49f;
+  --green: #a6da95;
+  --teal: #8bd5ca;
+  --sky: #91d7e3;
+  --sapphire: #7dc4e4;
+  --blue: #8aadf4;
+  --lavender: #b7bdf8;
+
+  --main-color: var(--mauve);
+  --main-background: #282a36;
+  --second-background: #1e1f29;
+  --hover-background: #44475a;
+  --main-background-transparent: #1e1f29;
+  --main-text: #f8f8f2;
+  --dimmer-text: #939ab7;
+  --green-color: var(--green);
+  --red-color: var(--red);
+}
+
 * {
   scrollbar-color: var(--hover-background) var(--second-background);
 }
@@ -16,8 +43,12 @@
   background-color: var(--dimmer-text);
 }
 
-.mdl-slider::-webkit-slider-thumb {background-color: var(--main-color);}
-.mdl-slider::-moz-range-thumb {background-color: var(--main-color);}
+.mdl-slider::-webkit-slider-thumb {
+  background-color: var(--main-color);
+}
+.mdl-slider::-moz-range-thumb {
+  background-color: var(--main-color);
+}
 
 .navMenuOption-selected,
 .iconOsdProgressInner,
@@ -174,7 +205,7 @@ html {
 .button-link,
 .button-flat:hover,
 .itemAction:focus,
-.emby-tab-button-active>.emby-button-foreground,
+.emby-tab-button-active > .emby-button-foreground,
 .emby-button-foreground:focus,
 .mdl-slider,
 .headerRight,
@@ -189,9 +220,7 @@ html {
 .listItemButton,
 .checkboxListLabel,
 .lnkMediaFolder,
-.sessionAppName,
-.sessionNowPlayingInfo,
-.sessionNowPlayingTime {
+.MuiTypography-root {
   color: var(--main-text) !important;
 }
 
@@ -227,7 +256,8 @@ html {
   color: var(--main-background);
 }
 
-.alphaPickerRow, .devices-subheader {
+.alphaPickerRow,
+.devices-subheader {
   color: var(--dimmer-text);
 }
 
@@ -238,8 +268,15 @@ html {
   color: var(--main-color) !important;
 }
 
-.emby-button.show-focus:focus {
+.layout-tv .emby-button:not(.emby-tab-button).show-focus:focus {
   background: var(--main-color) !important;
+}
+
+.layout-tv .emby-button:not(.emby-tab-button).show-focus:focus .listItem,
+.layout-tv
+  .emby-button:not(.emby-tab-button).show-focus:focus
+  .listItemBodyText {
+  color: var(--main-background) !important;
 }
 
 .sectionTitle,
@@ -269,10 +306,26 @@ html {
 .emby-button-foreground,
 .iconOsd .iconOsdIcon,
 .upNextContainer,
-.osdTextContainer, .osdTimeText,
 .selectionCommandsPanel > button:hover > .material-icons,
+.paperListLabel,
 legend {
   color: var(--main-text);
+}
+
+.osdTextContainer,
+.osdTimeText,
+.transparentDocument .paper-icon-button-light,
+.transparentDocument .pageTitle,
+.cardOverlayContainer .paper-icon-button-light,
+.sessionAppName,
+.sessionNowPlayingInfo,
+.sessionNowPlayingTime {
+  color: var(--white-text);
+}
+
+.devicesList .cardContent.defaultCardBackground,
+.cardContent.defaultCardBackground:has(.sessionNowPlayingContent) {
+  background-color: var(--dark-background) !important;
 }
 
 .fieldDescription,
@@ -287,14 +340,12 @@ legend {
 }
 
 .selectionCommandsPanel > button > .material-icons,
-.checkboxOutline .checkboxIcon-checked,
-.sessionAppName,
-.sessionNowPlayingInfo {
+.checkboxOutline .checkboxIcon-checked {
   color: var(--main-background);
 }
 
 /* this has to be background, not background-color for some reason */
-div[role=presentation].jstree-wholerow-clicked {
+div[role="presentation"].jstree-wholerow-clicked {
   background: var(--hover-background) !important;
 }
 
@@ -319,7 +370,8 @@ div[role=presentation].jstree-wholerow-clicked {
 }
 
 .iconOsd,
-.cardContent.defaultCardBackground {
+.cardContent.defaultCardBackground,
+.cardContent .defaultCardBackground {
   background-color: var(--second-background);
 }
 
@@ -336,7 +388,8 @@ div[role=presentation].jstree-wholerow-clicked {
   background-color: var(--main-background-transparent);
 }
 
-.emby-checkbox:focus:not(:checked) + span + .checkboxOutline, .itemSelectionPanel {
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline,
+.itemSelectionPanel {
   border-color: var(--main-color);
 }
 
@@ -346,4 +399,85 @@ div[role=presentation].jstree-wholerow-clicked {
 
 .MuiListItemButton-root img {
   background-color: transparent;
+}
+
+.Mui-TableHeadCell-Content-Labels,
+.MuiTableCell-body {
+  color: var(--main-text);
+}
+
+.Mui-TableHeadCell-Content-Labels .MuiTableSortLabel-icon {
+  color: var(--main-text) !important;
+}
+
+.MuiChip-filledInfo {
+  color: var(--main-background);
+  background-color: var(--blue);
+}
+
+.MuiChip-filledError {
+  color: var(--main-background);
+  background-color: var(--red-color);
+}
+
+.MuiFormLabel-colorPrimary,
+.MuiTablePagination-root,
+.MuiTablePagination-root .MuiSelect-select,
+.MuiTableCell-head {
+  color: var(--main-text);
+}
+
+.MuiAlert-standard.MuiAlert-colorInfo,
+.MuiAlert-standard.MuiAlert-colorInfo .MuiSvgIcon-root {
+  color: var(--sky) !important;
+}
+
+.MuiAlert-standard.MuiAlert-colorSuccess,
+.MuiAlert-standard.MuiAlert-colorSuccess .MuiSvgIcon-root {
+  color: var(--green) !important;
+}
+
+.MuiButton-containedPrimary {
+  color: var(--main-background) !important;
+  background-color: var(--sky) !important;
+}
+
+.MuiButton-containedError {
+  color: var(--main-background) !important;
+  background-color: var(--red) !important;
+}
+
+.MuiButton-contained .MuiSvgIcon-root {
+  color: var(--main-background) !important;
+}
+
+.MuiAccordion-root,
+.MuiFormControlLabel-label.Mui-disabled,
+.mediaInfoOfficialRating,
+.guideProgramNameCaretIcon,
+.mediaInfoItem {
+  color: var(--main-text) !important;
+}
+
+.emby-select-withcolor > option {
+  background-color: var(--main-background);
+}
+
+.starIcon {
+  color: var(--yellow);
+}
+
+.programCell-active {
+  background-color: var(--second-background) !important;
+}
+
+div[data-role="controlgroup"] .emby-button {
+  color: var(--main-text) !important;
+  background-color: var(--second-background) !important;
+}
+
+.programCell:focus,
+div[data-role="controlgroup"] a.ui-btn-active {
+  color: var(--main-background) !important;
+  background-color: var(--main-color) !important;
 }

@@ -1,52 +1,32 @@
-<h3 align="center">
-	<img src="https://draculatheme.com/images/hero/dracula-icon.svg" width="100" alt="Logo"/>
-    <br/>
-	Dracula Theme for Jellyfin
-</h3>
-<h6 align="center">
-  <a href="https://draculatheme.com">🏰 Website</a>
-  ·
-  <a href="https://draculatheme.com/blog">📰 Blog</a>
-  ·
-  <a href="https://draculatheme.com/pro">😎 PRO</a>
-  ·
-  <a href="https://ui.draculatheme.com">🧱 UI</a>
-  ·
-  <a href="https://draculatheme.com/shop">👕 Shop</a>
-</h6>
-<p align="center">
-  The most famous <b>dark theme</b> ever created and <b>available everywhere now for Jellyfin.</b> 🦇
-</p>
-<hr/>
+# Dracula for [Jellyfin](https://jellyfin.org)
 
-The Dracula Theme for Jellyfin was created on the basis of the famous [**catpuccin theme for Jellyfin**](https://github.com/catppuccin/jellyfin). All credits go to the catpuccin team and the dracula team.
+> A dark theme for [Jellyfin](https://jellyfin.org).
+> The Dracula Theme for Jellyfin is a fork of the awesome [Catppuccin theme](https://github.com/catppuccin/jellyfin) - many thanks to [these awesome contributors.](https://github.com/catppuccin/jellyfin/graphs/contributors)
 
-<p align="center">
-    
-![Dracula Theme Jellyfin](https://github.com/user-attachments/assets/5c08c7c1-7b86-4612-a5c2-d2c048e1dbb8)
+![Screenshot](./screenshot.png)
 
-</p>
+## Install
 
-#### Useful links
+All instructions can be found at [draculatheme.com/jellyfin](https://draculatheme.com/jellyfin).
 
-- 🌃 Read about the [**origin of the Dracula theme**](https://draculatheme.com/about);
-- 🐛 Report bugs on the theme's [**GitHub issues**](https://github.com/dracula);
-- ✨ Discover how to [**create a new theme**](https://draculatheme.com/contribute) using the official color palette.
+## Team
 
-## Usage
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jellyfin/graphs/contributors).
 
-1. Open settings, navigate to Display and paste the CSS into the section called "Custom CSS code"
-2. Copy the following import rules and paste them into the custom CSS box
+| [![Domoel](https://github.com/Domoel.png?size=100)](https://github.com/Domoel) |
+| ------------------------------------------------------------------------------ |
+| [Domoel](https://github.com/Domoel)                                            |
 
-    ```css
-    @import url('https://jellyfin.catppuccin.com/theme.css');
-    @import url('https://cdn.jsdelivr.net/gh/Domoel/jellyfin-dracula-theme/themes/dracula.css');
-    ```
-4. Press save and you're done!
+## Community
 
-## 💝 Thanks to
+- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
+- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
+- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
 
-- [Adam](https://github.com/adamperkowski)
-- [Isabel](https://github.com/isabelroses)
-- [mxgic1337](https://github.com/mxgic1337)
-- [Dracula Team](https://github.com/dracula)
+## Dracula PRO
+
+[![Dracula PRO](./.github/dracula-pro.png)](https://draculatheme.com/pro)
+
+## License
+
+[MIT License](./LICENSE)
